@@ -1,0 +1,34 @@
+{
+  "name": "fafi-27-enhanced",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Fafi 27 Enhanced - Open Soccer mekaniklerine dayalı geliştirilmiş akıllı tahta futbol oyunu",
+  "author": "Fafi 27 Team",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "game",
+    "football",
+    "soccer",
+    "smart-board",
+    "multiplayer",
+    "gamepad",
+    "mobile-gaming"
+  ],
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/fafi-27"
+  }
+}

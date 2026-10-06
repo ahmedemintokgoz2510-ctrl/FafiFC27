@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: fafi-27-enhanced
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /
+    healthCheckInterval: 30
+    healthCheckTimeout: 10
+    autoScrollLogs: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"
+    region: oregon
